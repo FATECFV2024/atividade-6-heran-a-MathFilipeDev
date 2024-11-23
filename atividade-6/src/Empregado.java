@@ -66,4 +66,13 @@ public class Empregado {
         return inss;
     }
         
+
+    public void imprimir() {
+        System.out.println("Nome:" + nome);
+        System.out.println("Endereço: " + endereco);
+        System.out.println("Salário Bruto: " + salario);
+        System.out.println("IRPF: " + calcularIrpf());
+        System.out.println("INSS: " + calcularInss());
+        System.out.println("Salário líquido: " + (salario - calcularIrpf() - calcularInss()));
+    }
 }
