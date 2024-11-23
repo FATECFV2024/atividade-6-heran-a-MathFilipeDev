@@ -22,11 +22,11 @@ public class FolhaPGTO {
         // Empregados horistas
         hora1 = new Horista("Carlos", "Rua xyz",20);
         hora1.calcularSalario();
-        System.out.println("Nome: " + hora.getNome());
+        System.out.println("Nome: " + hora1.getNome());
         System.out.println("EnderecoNome: " + hora1.getEndereco());
         System.out.println("Salário: " + hora1.getSalario());
 
-        hora2 = new Horista("Carlos", "Rua xyz",20);
+        hora2 = new Horista("Cristina", "Rua do centro",100);
         hora2.calcularSalario();
         System.out.println("Nome: " + hora2.getNome());
         System.out.println("EnderecoNome: " + hora2.getEndereco());
